@@ -1,3 +1,289 @@
-.title{
-    color: green;
-}
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Copse&family=DM+Serif+Text&family=Meera+Inimai&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
+/* line 11, css/styles.scss */
+.nav-item {
+  font-family: 'Hammersmith One', sans-serif; }
+
+/* line 26, css/styles.scss */
+#home {
+  background: url(../img/i%20ate%20it%20here%204.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding-top: 90px; }
+
+/* line 36, css/styles.scss */
+.transbox {
+  background-color: #000;
+  opacity: 0.6;
+  border: 3px;
+  margin-top: 2%;
+  font-family: 'Epilogue', sans-serif; }
+
+/* line 44, css/styles.scss */
+.title {
+  color: #F1D2F5;
+  opacity: 1.0;
+  font-family: 'Epilogue', sans-serif;
+  text-align: center;
+  letter-spacing: 0.2em; }
+
+/* line 52, css/styles.scss */
+.subtransbox {
+  background-color: #000;
+  border: 3px solid black;
+  opacity: 0.6;
+  letter-spacing: 0.2em; }
+
+/* line 59, css/styles.scss */
+.subtitle {
+  text-align: center;
+  color: #F1D2F5;
+  opacity: 1.0;
+  font-family: 'Epilogue', sans-serif;
+  text-align: center; }
+
+/* line 75, css/styles.scss */
+#about {
+  background-color: #141314;
+  background-image: url(../img/jj%20thicc%20white%20question%20marks.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  -webkit-background-position: bottom right;
+  -moz-background-position: bottom right;
+  -o-background-position: bottom right;
+  background-size: 15em;
+  min-height: 100vh;
+  padding-top: 30px; }
+
+/* line 89, css/styles.scss */
+.aboutme {
+  color: aqua;
+  font-family: 'Epilogue', sans-serif; }
+
+/* line 94, css/styles.scss */
+.me {
+  color: pink;
+  font-family: 'Epilogue', sans-serif; }
+
+/* line 98, css/styles.scss */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 2px;
+  width: 10%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 0.87em; }
+
+/* line 109, css/styles.scss */
+.containeroutline {
+  position: relative;
+  color: white;
+  padding-right: 30vh; }
+
+/* line 115, css/styles.scss */
+.centered {
+  position: absolute;
+  top: 100px;
+  left: 90px;
+  font-family: 'Ubuntu Condensed', sans-serif; }
+
+/* line 121, css/styles.scss */
+.outline {
+  padding-left: 10em;
+  padding-top: 10vh; }
+
+/* line 125, css/styles.scss */
+.bio-content {
+  position: absolute;
+  top: 125%;
+  left: 20%;
+  color: black;
+  background-image: url(../img/Aboutme.jpg);
+  background-size: cover;
+  width: 8em;
+  height: 14em;
+  opacity: 0.9;
+  font-size: 2rem; }
+
+/* line 138, css/styles.scss */
+.bio-content-two {
+  position: absolute;
+  top: 125%;
+  left: 45%;
+  color: black;
+  background-image: url(../img/Reflection.jpg);
+  background-size: cover;
+  width: 8em;
+  height: 14em;
+  opacity: 0.9;
+  font-size: 2rem; }
+
+/* line 151, css/styles.scss */
+.bio {
+  font-size: 0.8em;
+  color: aliceblue; }
+
+/* line 155, css/styles.scss */
+.modal-content {
+  background: #000 !important;
+  color: #FFFFF0;
+  font-family: 'Meera Inimai', sans-serif; }
+
+/* line 160, css/styles.scss */
+.wheels {
+  width: 100%; }
+
+@media only screen and (max-width: 800px) {
+  /* line 166, css/styles.scss */
+  body {
+    text-align: right; }
+  /* line 171, css/styles.scss */
+  .me {
+    text-align: left; }
+  /* line 174, css/styles.scss */
+  .aboutme {
+    text-align: left; }
+  /* line 177, css/styles.scss */
+  .bio-content {
+    width: 4em;
+    height: 4em;
+    margin-top: 15%; }
+  /* line 183, css/styles.scss */
+  .bio-content-two {
+    width: 4em;
+    margin-left: 20%;
+    height: 4em;
+    margin-top: 15%; }
+  /* line 189, css/styles.scss */
+  .transbox {
+    border: 4px solid black; }
+  /* line 194, css/styles.scss */
+  .subtransbox {
+    border: 7px solid black; } }
+
+/* line 208, css/styles.scss */
+#portfolio {
+  background-color: gainsboro;
+  min-height: 100vh;
+  padding-top: 30px; }
+  /* line 213, css/styles.scss */
+  #portfolio * {
+    margin: 0;
+    position: 0;
+    box-sizing: border-box;
+    text-align: center; }
+  /* line 221, css/styles.scss */
+  #portfolio .row {
+    display: flex;
+    flex-wrap: wrap; }
+  /* line 225, css/styles.scss */
+  #portfolio .row .column {
+    flex: 33.3%;
+    width: auto;
+    overflow: hidden;
+    padding: 0 4px;
+    height: 100%; }
+  /* line 232, css/styles.scss */
+  #portfolio .row .column img {
+    width: 100%;
+    margin-top: 2%;
+    height: 100%;
+    cursor: pointer;
+    filter: grayscale(1) brightness(0.5);
+    border-radius: 5px;
+    transition: 0.3s linear; }
+  /* line 242, css/styles.scss */
+  #portfolio .row .column img:hover {
+    filter: grayscale(0) brightness(1); }
+  @media only screen and (max-width: 600px) {
+    /* line 246, css/styles.scss */
+    #portfolio .row .column {
+      flex: 50%; } }
+  @media only screen and (max-width: 800px) {
+    /* line 251, css/styles.scss */
+    #portfolio .row .column {
+      flex: 50%; } }
+
+/* line 257, css/styles.scss */
+.isolation {
+  font-family: 'Epilogue', sans-serif; }
+
+/* line 260, css/styles.scss */
+.isolationp {
+  font-family: 'Meera Inimai', sans-serif; }
+
+/* line 273, css/styles.scss */
+#editing {
+  background-image: url(../img/black-marble-patterned-texture-background-marble-thailand-abstract-natural-marble-black-white-design.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding-top: 90px; }
+
+/* line 282, css/styles.scss */
+.editingheader {
+  color: #FFFFF0;
+  font-family: 'Epilogue', sans-serif; }
+
+/* line 286, css/styles.scss */
+.iframe-container {
+  position: relative;
+  width: 75%;
+  padding-bottom: 56.25%;
+  height: 0; }
+
+/* line 292, css/styles.scss */
+.iframe-container iframe {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 80%;
+  height: 60%; }
+
+/* line 299, css/styles.scss */
+.frankocean {
+  color: #FFFFF0;
+  font-family: 'Epilogue', sans-serif; }
+
+/* line 303, css/styles.scss */
+.fodescription {
+  color: #FFFFF0;
+  font-size: 0.8em;
+  font-family: 'Meera Inimai', sans-serif; }
+
+/* line 309, css/styles.scss */
+#Contactus {
+  max-height: 150vh;
+  padding-top: 40px;
+  font-family: 'Epilogue', sans-serif;
+  background-image: url(../img/close-up-black-marble-textured-background.jpg); }
+  /* line 314, css/styles.scss */
+  #Contactus h2 {
+    font-size: 2.5em; }
+  /* line 317, css/styles.scss */
+  #Contactus p {
+    font-size: 1.2em; }
+
+/* line 321, css/styles.scss */
+.finallogo {
+  max-width: 150px;
+  margin-bottom: 20%; }
+
+/* line 325, css/styles.scss */
+.logos {
+  max-width: 65px; }
+
+/* line 328, css/styles.scss */
+footer {
+  font-family: 'Meera Inimai', sans-serif;
+  font-size: 0.9em; }
+
+/*# sourceMappingURL=styles.css.map */
